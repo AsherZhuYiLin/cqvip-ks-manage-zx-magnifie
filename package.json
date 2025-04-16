@@ -1,0 +1,77 @@
+{
+  "_from": "zx-magnifie@^0.4.0",
+  "_id": "zx-magnifie@0.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-DJxE+/Z3QlGuQtec5+nnBXU9qs4mTzbqIALLRPjzxu/M7OuDaIJWu0k70UP9KsLH9wqJ7GZP726jCbOuwXX9Bg==",
+  "_location": "/zx-magnifie",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "zx-magnifie@^0.4.0",
+    "name": "zx-magnifie",
+    "escapedName": "zx-magnifie",
+    "rawSpec": "^0.4.0",
+    "saveSpec": null,
+    "fetchSpec": "^0.4.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://mirrors.huaweicloud.com/repository/npm/zx-magnifie/-/zx-magnifie-0.4.0.tgz",
+  "_shasum": "796e80efe5979b4453a19f0e444631926e5f4c4d",
+  "_spec": "zx-magnifie@^0.4.0",
+  "_where": "/Users/zhuyilin/Documents/VipProject/vip-peixun-web/Manage",
+  "author": {
+    "name": "chuzhixin",
+    "email": "1204505056@qq.com"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions"
+  ],
+  "bundleDependencies": false,
+  "dependencies": {
+    "core-js": "^3.5.0",
+    "vue": "^2.6.11"
+  },
+  "deprecated": false,
+  "description": "```\r 只能用于Vue CLI项目",
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.1.1",
+    "@vue/cli-plugin-eslint": "^4.1.1",
+    "@vue/cli-service": "^4.1.1",
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-vue": "^6.0.1",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "rules": {},
+    "parserOptions": {
+      "parser": "babel-eslint"
+    }
+  },
+  "main": "./components/export.js",
+  "name": "zx-magnifie",
+  "postcss": {
+    "plugins": {
+      "autoprefixer": {}
+    }
+  },
+  "scripts": {
+    "build": "vue-cli-service build",
+    "byui:update": "ncu -u",
+    "lint": "eslint --fix --ext .js,.vue src",
+    "serve": "vue-cli-service serve"
+  },
+  "version": "0.4.0"
+}
